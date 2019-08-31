@@ -1,0 +1,20 @@
+Server=localhost;Database=master;Trusted_Connection=True;
+
+C:\Program Files\Microsoft SQL Server\140\Setup Bootstrap\Log\20190826_114942
+
+C:\SQLServer2017Media\Developer_PTB
+
+C:\Program Files\Microsoft SQL Server\140\SSEI\Resources
+
+
+configurar a string de conexão do aspnet core
+
+baixar o pacote
+
+Microsoft.EntityFrameworkCore.SqlServer (SQLServer)
+Microsoft.EntityFrameworkCore.Sqlite(SQLite)
+e colocar a string de conexão no appsettings.json
+
+"ConnectionStrings": {
+    "BaseCotacoes": "Data Source=.\\MSSQLSERVER2016;Initial Catalog=ExemplosEFCore2;Integrated Security=SSPI;"
+  }
